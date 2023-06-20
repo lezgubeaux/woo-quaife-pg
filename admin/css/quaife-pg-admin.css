@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+:root{
+    --col_alert: #fc0000;
+    --col_ok: #008888;
+    --col_step: #0033bb;
+}
+[class*="note_"]{
+    padding-top: 30px;
+}
+.note_ok{
+    border-top:10px solid var(--col_ok)
+}
+.note_box{
+    border: 1px solid var(--col_ok);
+        border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 15px 30px;
+}
+.note_alert{
+    border-top:10px solid var(--col_alert)
+}
+.note_step{
+    border-top:10px solid var(--col_step)
+}
+input.button{
+    display: block !important;
+    min-width: 150px;
+    margin-top: 15px !important;
+}
+button a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: var(--col_step);
+}
+button:hover a{
+    color:#ffffff;
+}

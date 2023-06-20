@@ -1,0 +1,16 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ /* hidden wrapper/placeholder of PP iframe */
+ #quaife_payment_iframe{
+    /* display:none;
+    line-height: 0;
+    max-height: 0;
+    overflow-y: hidden; */
+ }
+ iframe.quaife_pg_iframe{
+    min-width: 100%;
+        height: 450px;
+}
